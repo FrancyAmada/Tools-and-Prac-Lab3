@@ -34,7 +34,7 @@ class Calculator:
                     num1 += char
                 else:
                     num2 += char
-            elif char in OPERATIONS and num1 != "" and operation is None:
+            if char in OPERATIONS and num1 != "" and operation is None:
                 operation = OPERATIONS[char]
             else:
                 return "Error"
