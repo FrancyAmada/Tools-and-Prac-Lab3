@@ -16,7 +16,7 @@ class Calculator:
 
     @staticmethod
     def divide(num1: float, num2: float):
-        pass
+        return num1 / num2
 
     def calculate(self, inp: str):
         OPERATIONS = {
