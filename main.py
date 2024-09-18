@@ -12,7 +12,7 @@ class Calculator:
 
     @staticmethod
     def multiply(num1: float, num2: float):
-        pass
+        return num1 * num2
 
     @staticmethod
     def divide(num1: float, num2: float):
